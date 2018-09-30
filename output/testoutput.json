@@ -1,0 +1,55 @@
+{
+    "risk_score": [
+        {
+            "Yes": 0.298,
+            "No": 0.702
+        }
+    ],
+    "lime_features": [
+        {
+            "beta": -0.0031,
+            "x.recoded": 33,
+            "effect": -0.1023,
+            "x.original": "33",
+            "feature": "Age",
+            "feature.value": "Age=33",
+            ".class": "Yes"
+        },
+        {
+            "beta": 0.3359,
+            "x.recoded": 1,
+            "effect": 0.3359,
+            "x.original": "Yes",
+            "feature": "OverTime=Yes",
+            "feature.value": "OverTime=Yes",
+            ".class": "Yes"
+        },
+        {
+            "beta": -0.0065,
+            "x.recoded": 0,
+            "effect": -0,
+            "x.original": "0",
+            "feature": "StockOptionLevel",
+            "feature.value": "StockOptionLevel=0",
+            ".class": "Yes"
+        },
+        {
+            "beta": -0.0059,
+            "x.recoded": 8,
+            "effect": -0.0475,
+            "x.original": "8",
+            "feature": "TotalWorkingYears",
+            "feature.value": "TotalWorkingYears=8",
+            ".class": "Yes"
+        },
+        {
+            "beta": -0.0029,
+            "x.recoded": 7,
+            "effect": -0.0202,
+            "x.original": "7",
+            "feature": "YearsInCurrentRole",
+            "feature.value": "YearsInCurrentRole=7",
+            ".class": "Yes"
+        }
+    ]
+}
