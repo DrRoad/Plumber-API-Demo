@@ -143,7 +143,7 @@ This will generate the LIME report in html format and the output will be written
 
 ### Sample LIME Report
 
-![Sample LIME Report where k=10]('output/sample-lime-report.png')
+![Sample LIME Report where k=10](output/sample-lime-report.png)
 
 # References
 
